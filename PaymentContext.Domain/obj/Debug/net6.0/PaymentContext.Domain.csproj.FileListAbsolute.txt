@@ -1,0 +1,15 @@
+D:\dev\balta\PaymentContext\PaymentContext.Domain\bin\Debug\net6.0\PaymentContext.Domain.deps.json
+D:\dev\balta\PaymentContext\PaymentContext.Domain\bin\Debug\net6.0\PaymentContext.Domain.dll
+D:\dev\balta\PaymentContext\PaymentContext.Domain\bin\Debug\net6.0\PaymentContext.Domain.pdb
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.AssemblyInfo.cs
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.dll
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\refint\PaymentContext.Domain.dll
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.pdb
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\ref\PaymentContext.Domain.dll
+D:\dev\balta\PaymentContext\PaymentContext.Domain\bin\Debug\net6.0\PaymentContext.Shared.dll
+D:\dev\balta\PaymentContext\PaymentContext.Domain\bin\Debug\net6.0\PaymentContext.Shared.pdb
+D:\dev\balta\PaymentContext\PaymentContext.Domain\obj\Debug\net6.0\PaymentContext.Domain.csproj.CopyComplete
