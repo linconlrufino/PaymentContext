@@ -1,3 +1,5 @@
+using Flunt.Notifications;
+using Flunt.Validations;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 
@@ -20,7 +22,7 @@ public class Student : Entity
     public Name Name { get; set; }
     public Document Document { get; private set; }
     public Email Email { get; private set; }
-    public Adress Address { get; private set; }
+    public Address Address { get; private set; }
 
     public IReadOnlyCollection<Subscription> Subscriptions
     {
@@ -29,11 +31,20 @@ public class Student : Entity
 
     public void AddSubscription(Subscription subscription)
     {
-        //Cancela todas as outras assianturas e coloca esta
-        //como principal
-        foreach (var sub in Subscriptions)
-            sub.Inactivate();
+        var hasSubscriptonActive = false;
+        foreach (var sub in _subscriptions)
+        {
+            if (sub.Active)
+                hasSubscriptonActive = true;
+        }
 
-        _subscriptions.Add(subscription);
+        // AddNotifications(new Contract<Notification>()
+        //     .Requires()
+        //     .IsFalse(hasSubscriptonActive, "Student.Subscriptions", "Você já tem uma assinatura ativa")
+        // );
+
+        //Alternativa
+        if (hasSubscriptonActive)
+            AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
     }
 }

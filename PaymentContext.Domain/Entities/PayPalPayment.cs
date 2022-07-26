@@ -12,7 +12,7 @@ public class PayPalPayment : Payment
         decimal totalPaid,
         string payer,
         Document document,
-        Adress address,
+        Address address,
         Email email
        ) : base(
             date,
