@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nFOC5pCKijOgpcC/UclSRoG+q5Xo2s0a6DkcvKwyNdtrAdi84wJyX0MfXkesH31R5HApyfxSFcJyqu4WdF07ng==",
+  "dgSpecHash": "ZbgXGRPf0ore0YsRcdCa5xaWNtC+wqQUYimb+EoqA+yPR9rq4Bwgj1BB2jrDAzJl2NlWaX8Nj6YgJoglFxXv0w==",
   "success": true,
   "projectFilePath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\linco\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

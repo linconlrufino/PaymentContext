@@ -8,6 +8,15 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.1.0": {
         "type": "package",
         "compile": {
@@ -1665,7 +1674,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "PaymentContext.Shared": "1.0.0"
+          "PaymentContext.Shared": "1.0.0",
+          "flunt": "2.0.5"
         },
         "compile": {
           "bin/placeholder/PaymentContext.Domain.dll": {}
@@ -1677,6 +1687,9 @@
       "PaymentContext.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "flunt": "2.0.5"
+        },
         "compile": {
           "bin/placeholder/PaymentContext.Shared.dll": {}
         },
@@ -1736,6 +1749,19 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.1.0": {
@@ -6239,7 +6265,8 @@
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "PaymentContext.Domain >= 1.0.0",
       "PaymentContext.Shared >= 1.0.0",
-      "coverlet.collector >= 3.1.2"
+      "coverlet.collector >= 3.1.2",
+      "flunt >= 2.0.5"
     ]
   },
   "packageFolders": {
@@ -6248,11 +6275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
+      "projectUniqueName": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "projectName": "PaymentContext.Tests",
-      "projectPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
+      "projectPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "packagesPath": "C:\\Users\\linco\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\obj\\",
+      "outputPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6303,6 +6330,10 @@
           "coverlet.collector": {
             "target": "Package",
             "version": "[3.1.2, )"
+          },
+          "flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           }
         },
         "imports": [
