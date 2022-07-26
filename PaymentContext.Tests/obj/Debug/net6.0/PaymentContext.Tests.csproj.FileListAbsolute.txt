@@ -1,3 +1,4 @@
+D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\CoverletSourceRootsMapping
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\testhost.dll
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\testhost.exe
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -85,6 +86,10 @@ D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\zh-Hans\Micros
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Domain.dll
+D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Shared.dll
+D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Shared.pdb
+D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Domain.pdb
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\PaymentContext.Tests.csproj.AssemblyReference.cache
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\PaymentContext.Tests.GeneratedMSBuildEditorConfig.editorconfig
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\PaymentContext.Tests.AssemblyInfoInputs.cache
@@ -96,8 +101,3 @@ D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\refint\Payment
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\PaymentContext.Tests.pdb
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\PaymentContext.Tests.genruntimeconfig.cache
 D:\dev\balta\PaymentContext\PaymentContext.tests\obj\Debug\net6.0\ref\PaymentContext.Tests.dll
-D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\CoverletSourceRootsMapping
-D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Domain.dll
-D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Shared.dll
-D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Shared.pdb
-D:\dev\balta\PaymentContext\PaymentContext.tests\bin\Debug\net6.0\PaymentContext.Domain.pdb

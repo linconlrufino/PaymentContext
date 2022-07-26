@@ -8,8 +8,8 @@ public class UnitTest1
     [TestMethod]
     public void AdicionarAssinatura()
     {
-        var subscription = new Subscription(null);
-        var student = new Student("FirstName", "lastName", "123456789", "tst@tst.tst");
-        student.AddSubscription(subscription);
+        //var subscription = new Subscription(null);
+        //var student = new Student();
+        //student.AddSubscription(subscription);
     }
 }
