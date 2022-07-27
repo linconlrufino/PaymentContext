@@ -1,10 +1,9 @@
 using PaymentContext.Domain.Commands;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Domain.Handlers;
-using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Tests.Repositories;
 
-namespace PaymentContext.Tests;
+namespace PaymentContext.Tests.Handlers;
 
 [TestClass]
 public class SubscriptionHandlerTests
