@@ -9,12 +9,13 @@ public class Student : Entity
 {
     private IList<Subscription> _subscriptions;
 
-    public Student(Name name, Document document, Email email)
+    public Student(Name name, Document document, Email email, Address address)
     {
         Name = name;
         Document = document;
         Email = email;
         _subscriptions = new List<Subscription>();
+        Address = address;
 
         AddNotifications(name, document, email);
     }

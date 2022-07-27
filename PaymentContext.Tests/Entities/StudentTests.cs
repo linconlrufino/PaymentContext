@@ -20,7 +20,7 @@ public class StudentTests
         _document = new Document("12345678901", EDocumentType.CPF);
         _email = new Email("thorin@lotr.com");
         _address = new Address("Rua 1", "123", "bairro", "cidade", "uf", "country", "123");
-        _student = new Student(_name, _document, _email);
+        _student = new Student(_name, _document, _email, _address);
         _subscription = new Subscription(null);
     }
 
