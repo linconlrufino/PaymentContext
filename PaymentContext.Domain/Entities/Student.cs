@@ -20,7 +20,7 @@ public class Student : Entity
         AddNotifications(name, document, email);
     }
 
-    public Name Name { get; set; }
+    public Name Name { get; private set; }
     public Document Document { get; private set; }
     public Email Email { get; private set; }
     public Address Address { get; private set; }
