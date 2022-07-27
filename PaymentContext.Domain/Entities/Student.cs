@@ -23,7 +23,6 @@ public class Student : Entity
     public Document Document { get; private set; }
     public Email Email { get; private set; }
     public Address Address { get; private set; }
-
     public IReadOnlyCollection<Subscription> Subscriptions
     {
         get { return _subscriptions.ToArray(); }
@@ -38,13 +37,16 @@ public class Student : Entity
                 hasSubscriptonActive = true;
         }
 
-        // AddNotifications(new Contract<Notification>()
-        //     .Requires()
-        //     .IsFalse(hasSubscriptonActive, "Student.Subscriptions", "Você já tem uma assinatura ativa")
-        // );
+        AddNotifications(new Contract<Notification>()
+            .Requires()
+            .IsFalse(hasSubscriptonActive, "Student.Subscriptions", "Você já tem uma assinatura ativa")
+            .IsLowerThan(0, subscription.Payments.Count, "Student.Subscription.Payments", "Esta assinatura não possui pagamentos")
+        );
+
+        _subscriptions.Add(subscription);
 
         //Alternativa
-        if (hasSubscriptonActive)
-            AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
+        // if (hasSubscriptonActive)
+        //     AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
     }
 }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
+    "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
     "D:\\dev\\balta\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
+    "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectUniqueName": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
         "projectName": "PaymentContext.Tests",
-        "projectPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
         "packagesPath": "C:\\Users\\linco\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.Tests\\obj\\",
+        "outputPath": "D:\\dev\\balta\\PaymentContext\\PaymentContext.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linco\\AppData\\Roaming\\NuGet\\NuGet.Config",
