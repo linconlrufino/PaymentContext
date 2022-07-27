@@ -18,7 +18,7 @@ public class Address : ValueObject
 
         AddNotifications(new Contract<Notification>()
            .Requires()
-           .IsLowerThan(Street, 3, "Address.Street", "A rua deve conter pelo menos 3 caracteres")
+           .IsGreaterThan(Street, 3, "Address.Street", "A rua deve conter pelo menos 3 caracteres")
        );
     }
 
